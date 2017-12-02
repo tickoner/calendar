@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.box {
+  margin: 0 auto;
+  background: green;
+  text-align: center;
+  display: inline-block;
+  padding: 40px;
+}
+.cent {
+  text-align: center;
+}
+.text {
+  text-align: center;
+  color: white;
+}
+
+.btn {
+  padding: 30px;
+}
+
+.light {
+  background-color: #ffee33;
+}
+
+.red {
+  background-color: #f1cccc;
+}
+
+.calendar-container {
+
+}
+.calendar-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      padding: 15px;
+}
+.calendar-control-container {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.calendar-control-container > a {
+  margin-right: 10px;
+}
+.calendar-control-container>h2 {
+  padding-top: 5px;
+  font-size: 16px;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-right: 10px;
+}
+.calendar-search-container {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+-webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+        align-items: baseline;
+}
+.calendar-search-container > input {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ececec;
+}
+.ctrl-btn {
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid #ececec;
+  border-radius: 4px;
+  background-color: white;
+  color: #888888;
+  font-size: 14px;
+}
+.ctrl-btn:hover {
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.7;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.calendar-day-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.calendar-day-head {
+  width: 15%;
+  text-align: center;
+  color: #888888;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+.cellRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.cell-container {
+  padding: 0 15px;
+}
+.singleCell {
+  width: 15%;
+  border: 1px solid #ececec;
+  padding: 10px;
+  min-height: 60px;
+}
+.singleCell a {
+  color: #888888;
+  font-size: 14px;
+}
